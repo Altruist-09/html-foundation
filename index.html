@@ -1,15 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title>HTML Foundations - Assignment-01</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Thy_Chosen dailytimes. We bring to you a real and true dily news going in Nigeria.">
+    <meta name="author" content="Bamisola, Gabriel Olatunde">
+    <title>THY_CHOSEN | dailytimes</title>
 </head>
+
 <body>
-    <!--This is my first HTML document. -->
-    <h1>WELCOME TO HTML FOUNDATION</h1>
-    <P>HTML stands for HyperText Markup Language. It provides the structure and content of a web page.</P>
-    <P>I am learning to create valid HTML documents manually.</P>
-    <P>Learnig to type basic structure manually is an important first step before moving to CSS and JavaScript</P>
+    <!-- Website Header -->
+    <header>
+        <h1>Thy_Chosen | The Daily Times Newspaper</h1>
+
+        <!-- Primary Navigation -->
+        <nav aria-label="Primary navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#latest">Latest News</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#sports">Sports</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="home">
+
+        <!-- Top Story Section -->
+        <section aria-labelledby="top-story-heading">
+            <h2 id="top-story-heading">Top Story</h2>
+
+            <article>
+                <h3>Government Announces New Economic Reforms</h3>
+                <p>
+                    The government has announced new economic reforms
+                    aimed at improving business opportunities and
+                    strengthening the national economy.
+                </p>
+            </article>
+        </section>
+
+        <!-- Latest News Section -->
+        <section id="latest" aria-labelledby="latest-heading">
+            <h2 id="latest-heading">Latest News</h2>
+
+            <article>
+                <h3>New Education Policy Introduced</h3>
+                <p>
+                    Education authorities have introduced a new policy
+                    designed to improve the quality of education.
+                </p>
+            </article>
+
+            <article>
+                <h3>Fuel Prices Expected to Change</h3>
+                <p>
+                    Energy analysts predict changes in fuel prices
+                    following recent developments in the global market.
+                </p>
+            </article>
+
+            <article>
+                <h3>Heavy Rainfall Affects Several Communities</h3>
+                <p>
+                    Residents in several communities are responding
+                    to flooding caused by heavy rainfall.
+                </p>
+            </article>
+        </section>
+
+        <!-- Technology Section -->
+        <section id="technology" aria-labelledby="technology-heading">
+            <h2 id="technology-heading">Technology News</h2>
+
+            <article>
+                <h3>Artificial Intelligence Transforms Modern Businesses</h3>
+                <p>
+                    Businesses are adopting artificial intelligence
+                    to improve productivity and customer experience.
+                </p>
+            </article>
+
+            <article>
+                <h3>New Smartphone Technology Unveiled</h3>
+                <p>
+                    Technology companies have introduced smartphones
+                    featuring improved cameras and battery performance.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sports Section -->
+        <section id="sports" aria-labelledby="sports-heading">
+            <h2 id="sports-heading">Sports News</h2>
+
+            <article>
+                <h3>National Football Team Wins Important Match</h3>
+                <p>
+                    The national football team secured an important
+                    victory in its latest international match.
+                </p>
+            </article>
+
+            <article>
+                <h3>Local Athletes Prepare for International Competition</h3>
+                <p>
+                    Athletes are undergoing final preparations
+                    ahead of an upcoming international tournament.
+                </p>
+            </article>
+        </section>
+
+        <!-- Sidebar / Most Read Stories -->
+        <aside aria-labelledby="most-read-heading">
+            <h2 id="most-read-heading">Most-Read Stories</h2>
+
+            <ol>
+                <li>
+                    <a href="#">Latest Economic Developments</a>
+                </li>
+                <li>
+                    <a href="#">Major Football Transfer News</a>
+                </li>
+                <li>
+                    <a href="#">New Technology Trends</a>
+                </li>
+                <li>
+                    <a href="#">Government Announces New Policies</a>
+                </li>
+            </ol>
+        </aside>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+
+        <address>
+             Thy_Chosen The Daily Times Newspaper<br>
+            Email:
+            <a href="mailto:bamsamuel18@gmail.com">
+                bamsamuel18@gmail.com
+            </a><br>
+            Phone: +234 816 852 5816
+        </address>
+
+        <p>
+            &copy; 2026 Thy_Chosen The Daily Times Newspaper. All Rights Reserved.
+        </p>
+    </footer>
+
 </body>
 </html>
